@@ -1,0 +1,434 @@
+<!--
+ ******************************************************************************
+  RowdyHacks Website                                            March 12, 2016
+  Copyright ACM UTSA Student Chapter
+  Written by: Kurt King
+  Contributions: Bryan Deloeste, Kristin Mendoza, Andrew Hutton, 
+                 Alex Betancourt
+
+  Open Source:
+  1. Ian Lunn - hover.css effects             http://ianlunn.co.uk/  
+  2. mdb - material design css
+  ******************************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en" id="verytop">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>RowdyHacks Spring 2016</title>
+
+  <!-- Material Design Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Custom Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+
+  <!-- Custom style -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" id="top">
+
+  <!-- NAVBAR  -->
+    <nav class="navbar-fixed-top menu menu--viola" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars hvr-icon-grow"></i>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="menu__list">
+          <li class="menu__item menu__item--current"><a href="#home" class="page-scroll menu__link"><span class="fa fa-gears"></span> Home</a></li>
+          <li class="menu__item"><a href="#about" class="page-scroll menu__link"><span class="fa fa-user"></span> ABOUT</a></li>
+          <li class="menu__item"><a href="#schedule" class="page-scroll menu__link"><span class="fa fa-calendar"></span> SCHEDULE</a></li>
+          <li class="menu__item"><a href="#sponsors" class="page-scroll menu__link"><span class="fa fa-globe"></span> SPONSORS</a></li>
+          <li class="menu__item"><a href="#faq" class="page-scroll menu__link"><span class="fa fa-question"></span> FAQ</a></li>
+          <li class="menu__item"><a href="#contact" class="page-scroll menu__link"><span class="fa fa-envelope"></span> CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  <!--/. Navbar -->
+
+  <!-- Landing Section -->
+  <section class="full-bg-img" id="home">
+    <div class="verticalcenter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeInLeft text-center">
+            <img src="img/big134.png" class="img-responsive" alt="">
+            <p class="smhidden"><br></p> <!-- html hack (do not delete) -->
+            <a href="rowdyhacks.html" target="_blank" class="btn btn-primary btn-reg btn-xlg waves-effect waves-light">Register</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <!--/. Landing Section -->
+
+  <!--Section: About RowdyHacks -->
+  <section id="about" class="slide">
+    <div class="row text-center">
+      <div class="col-md-12 font-thin header wow slideInLeft">
+        About <span class="font-semibold">RowdyHacks</span>
+      </div>
+    </div>
+    <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 wow slideInRight text-center" data-wow-delay="0.2s">
+              <p>It’s official! Come join us at RowdyHacks as we build apps, games, and any other neat projects in 24 hours.
+                 Whether you’re a seasoned hacker or new to the hackathon community, we’ve got your back through the whole hacking experience.</p>
+              <br>
+              <p>If you aren’t familiar, a hackathon is where you turn your crazy ideas into real projects. Plenty of your fellow peers gather 
+                 to build something they’re passionate about so get involved in making incredible things.</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--/.Section: About RowdyHacks -->
+
+  <!--Section: Event Schedule-->
+  <section id="schedule" class="slide">
+    <div class="row">
+      <div class="col-md-12 font-thin header wow slideInLeft">
+        Event <span class="font-semibold">Schedule</span>
+      </div>
+    </div>
+    <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+    </div>
+    <div class="container">
+      <div class="row schedule-content">
+        <div class="col-md-6 col-md-offset-3 wow slideInRight" data-wow-delay="0.2s">
+          <table class="table">
+            <thead>
+              <tr>
+                <th><h4>Friday</h4></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>5:00pm - 6:00pm</td>
+                <td>Check In/Registration</td>
+              </tr>
+              <tr>
+                <td>6:00pm - 7:00pm</td>
+                <td>Opening Ceremonies/Dinner</td>
+              </tr>
+              <tr>
+                <td>12:00am</td>
+                <td>Midnight Snack</td>
+              </tr>
+            </tbody>
+          </table> 
+        </div>
+      </div>
+      <div class="row saturday-content">
+        <div class="col-md-6 col-md-offset-3 wow slideInRight" data-wow-delay="0.2s">
+          <table class="table">
+            <thead>
+              <tr>
+                <th><h4>Saturday</h4></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>7:00am</td>
+                <td>Breakfast</td>
+              </tr>
+              <tr>
+                <td>12:00pm</td>
+                <td>Project Submissions/Lunch</td>
+              </tr>
+              <tr>
+                <td>12:00pm - 3:00pm</td>
+                <td>Judging</td>
+              </tr>
+              <tr>
+                <td>3:00pm - 5:00pm</td>
+                <td>Presentations/Prizes</td>
+              </tr>
+              <tr>
+                <td>5:00pm - 6:00pm</td>
+                <td>Closing Ceremonies</td>
+              </tr>
+            </tbody>
+          </table> 
+        </div>
+      </div> <!-- end row -->
+    </div> <!-- end container -->
+  </section>
+ <!--/.Section: Event schedule-->
+
+
+  <!--Section: Sponsors -->
+  <section id="sponsors" class="slide">
+    <div class="row text-center">
+      <div class="col-md-12 font-thin sponsor-header wow slideInLeft">
+        Our <span class="font-semibold">Sponsors</span>
+      </div>
+    </div>
+    <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+    </div>
+      <div class="container">
+        <div class="row sponsor-row-1 wow slideInRight" data-wow-delay=".25s">
+          <div class="col-sm-6 csdept-logo">
+            <img src="img/CSDept4.png" class="img-responsive">
+          </div>
+          <div class="col-sm-6 alexa-logo">
+            <img src="img/alexa-logo.png" class="img-responsive">
+          </div>
+        </div>
+        <div class="row sponsor-row-2 wow slideInRight" data-wow-delay=".25s">
+          <div class="col-sm-6 promoter-logo text-center">
+            <img src="img/promoter-logo-black.png" class="img-responsive">
+          </div>
+          <div class="col-sm-6 ycj-logo">
+            <img src="img/codejamagain.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--/.Section: Sponsor Section-->
+
+  <!--Section: FAQ Section-->
+  <section id="faq" class="slide">
+    <div class="row text-center">
+      <div class="col-md-12 font-thin header wow slideInLeft">
+        Frequently Asked <span class="font-semibold">Questions</span>
+      </div>
+    </div>
+    <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+    </div>
+    <div class="container text-center">
+      <!--First fow-->
+      <div class="row text-center">
+
+          <!-- Start of first row of questions -->
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">What is a hackathon?</h3>
+            <p class="font-thin">Hackathons are events where individuals form teams to create, design, and develop projects.</p>
+          </div>
+
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">Why should I come?</h3>
+            <p class="font-thin">You'll be able to meet new people, discuss ideas, and collaborate on interesting projects.</p>
+          </div>
+        <!-- End of first row of questions -->
+
+        <!-- Start of second row of questions -->
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">How many people will be participating?</h3>
+            <p class="font-thin">There will be a limited number of participants. The earlier you sign up, the better the chance 
+                                 you have at being accepted.</p>
+          </div>
+
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">Where will RowdyHacks be located?</h3>
+            <p class="font-thin">RowdyHacks will take place on the first floor of the North Paseo Building at UTSA's main campus.</p>
+          </div>
+        <!-- End of second row of questions -->
+
+        <!-- Start of third row of questions -->
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">Who can attend?</h3>
+            <p class="font-thin">Any undergraduate or graduate student currently enrolled at UTSA.</p>
+          </div>
+
+          <div class="col-md-6 wow slideInRight">
+            <h3 class="font-semibold">What can I build?</h3>
+            <p class="font-thin">Be creative! Anything you want from web apps, mobile apps, and more!</p>
+          </div>
+        <!-- End of third row of questions -->
+
+        <!-- Start of fourth row of questions -->
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">How much will it cost?</h3>
+            <p class="font-thin">We will provide food, snacks, beverages. You just have to show up.</p>
+          </div>
+
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">What do I need to bring?</h3>
+            <p class="font-thin">Here are some items we recommend you bring:<br>Laptops, charger, a change of clothes, and toiletries</p>
+          </div>
+        <!-- End of fourth row of questions -->
+
+        <!-- Start of fourth row of questions -->
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">How big can a team be?</h3>
+            <p class="font-thin">Team sizes will be 3-4 members</p>
+          </div>
+
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">What if I don't have a team or idea?</h3>
+            <p class="font-thin">We will give you the opportunity to form teams during the opening ceremonies.</p>
+          </div>
+        <!-- End of fourth row of questions -->
+
+        <!-- Start of fifth row of questions -->
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">Where will I be allowed to park?</h3>
+            <p class="font-thin">Participants may park in any Faculty A/B or commuter spot starting at 5pm. We recommend trying the
+                                 parking lot directly in front of the Bauerle Garage (Bauerle Rd Lot 3).
+                                 <br>A map of UTSA can be found 
+                                 <a href="https://www.utsa.edu/_files/images/visit/MainCampusMaps.jpg" target="_blank">
+                                 <span class="font-map">here</span></a>.</p>
+          </div>
+          <div class="col-lg-6 wow slideInRight">
+            <h3 class="font-semibold">Interested in sponsoring?</h3>
+            <p class="font-thin">Please <a href="mailto:acm.utsa@gmail.com"><span class="font-map">contact us</span></a> via e-mail at acm.utsa@gmail.com for more details.</p> 
+          </div>
+        </div>
+        <!-- End of fifth row of questions --> 
+      </div>
+    </div>
+  </section>
+  <!--/.Section: FAQ Section-->
+
+  <!--Section: Contact RowdyHacks -->
+  <section id="contact" class="slide">
+    <div class="row text-center">
+      <div class="col-md-12 font-thin header wow slideInLeft">
+        Contact <span class="font-semibold">RowdyHacks</span>
+      </div>
+    </div>
+    <div class="row line-row">
+        <div class="hr">&nbsp;</div>
+    </div>
+    <div class="container">
+      <div class="row wow slideInRight">
+        <div class="col-12 col-sm-12 font-light"><p>Have Questions?<br>Feel free to e-mail us or send us a message via social media.</p></div>
+      </div>
+
+      <div class="col-md-12 text-center wow slideInUp">
+        <br>
+        <a href="mailto:acm.utsa@gmail.com" class="btn-floating btn-large waves-effect waves-light"><i class="fa fa-envelope"> </i></a>
+        <a target="_blank" href="https://www.facebook.com/acmutsa" class="btn-floating btn-large waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
+        <a target="_blank" href="https://twitter.com/acm_utsa" class="btn-floating btn-large waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
+      </div>
+    </div>
+  </section>
+  <!--/.Section: About RowdyHacks -->
+
+
+  <!--Section: Footer Section-->
+  <section id="footer">
+    <div class="container verticalcenter">
+      <!--First fow-->
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs footer-left wow slideInLeft">
+          <a href="https://www.acm-utsa.org" target="_blank">
+            <img class="img-responsive" src="img/acm-logo-rectangle.png">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow slideInUp text-center">
+          <a href="#verytop" class="btn btn-circle page-scroll">
+            <i class="fa fa-level-up animated"></i>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs footer-right wow slideInRight">
+          <ul class="font-bold">
+            <li class="font-bold"><a href="rowdyhacks.html" target="_blank">Apply</a></li>
+            <li class="font-bold"><a href="http://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">Code of Conduct</a></li>
+            <li class="font-bold"><a href="https://github.com/UTSA-ACM" target="_blank">ACM Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/.Section: Footer Section -->
+
+
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Material Design Bootstrap -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+
+  <!-- Smooth scroll -->
+  <script type="text/javascript" src="js/smooth-scroll.js"></script>
+
+  <!-- Custom Navbar -->
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/classie.js"></script>
+  <script type="text/javascript" src="js/clipboard.min.js"></script>
+
+  <script>
+    (function() {
+        [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+            var menuItems = menu.querySelectorAll('.menu__link'),
+                setCurrent = function(ev) {
+                    ev.preventDefault();
+
+                    var item = ev.target.parentNode; // li
+
+                    // return if already current
+                    if (classie.has(item, 'menu__item--current')) {
+                            return false;
+                    }
+                    // remove current
+                    classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
+                    // set current
+                    classie.add(item, 'menu__item--current');
+                };
+
+            [].slice.call(menuItems).forEach(function(el) {
+                    el.addEventListener('click', setCurrent);
+            });
+        });
+
+        [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
+            link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
+            new Clipboard(link);
+            link.addEventListener('click', function() {
+                classie.add(link, 'link-copy--animate');
+                setTimeout(function() {
+                        classie.remove(link, 'link-copy--animate');
+                }, 300);
+            });
+        });
+    })(window);
+  </script> 
+
+  <script>
+    $(document).ready(function () {
+      $(".menu__list li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+        });
+    });
+  </script>
+
+  <!--WOW effect initialization-->
+  <script>
+      new WOW().init();
+  </script>
+
+</body>
+</html>
