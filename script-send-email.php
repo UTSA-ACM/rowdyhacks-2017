@@ -18,7 +18,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= "From: " . $from . "\r\n"."X-Mailer: php";
 
 $stat = '';
-if(mail($to, 'Message on JoyfulHeart.Life', $body, $headers)){
+if(mail($to, 'Message from RowdyHacks Website', $body, $headers)){
 	$stat = 'Your message has successfully been sent';
 }
 else{
