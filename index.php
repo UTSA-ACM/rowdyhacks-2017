@@ -37,7 +37,7 @@
 										<h3>
 											<img src="images/icons/ic_event_black_48px.svg" class="partial-section-h-icon" />
 										</h3>
-										April 1st - April 2nd
+										April 15th - April 16th
 									</div>
 								</div>
 								<div class="col-sm-12 col-md-4">

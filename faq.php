@@ -55,25 +55,25 @@
 										<h3>
 											Who can attend?
 										</h3>
-										Any undergraduate or graduate student currently enrolled at UTSA.
+										Any university student, 18 or older.
 									</div>
 									<div class="faq-item">
 										<h3>
 											How much will it cost?
 										</h3>
-										We will provide food, snacks, beverages. You just have to show up.
+										Free! We will provide food, internet, power, prizes, and snacks. You just have to show up.
 									</div>
 									<div class="faq-item">
 										<h3>
 											Where will I be allowed to park?
 										</h3>
-										Participants may park in any Faculty A/B or commuter spot starting at 5pm. We recommend trying the parking lot directly in front of the Bauerle Garage (Bauerle Rd Lot 3). A map of UTSA can be found <a href="https://www.utsa.edu/_files/images/visit/MainCampusMaps.jpg">here</a>.
+										Participants may park in any Faculty A/B or commuter spot over the weekend. We recommend trying the parking lot directly in front of the Bauerle Garage (Bauerle Rd Lot 3). A map of UTSA can be found <a href="https://www.utsa.edu/_files/images/visit/MainCampusMaps.jpg">here</a>.
 									</div>
 									<div class="faq-item">
 										<h3>
 											How big can a team be?
 										</h3>
-										Team sizes will be 3-4 members
+										We recommend having a team of 4 people
 									</div>
 								</div>
 								<div class="col-md-6">

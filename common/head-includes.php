@@ -25,15 +25,17 @@
 			$("#shell-link").css("background-color", $("#main-menu-container").css("background-color"));
 		});
 		
-		var $contentHeight = $("#content").outerHeight(true) + "px";
-		if($(window).height() > $("#content").outerHeight(true)){
-			$contentHeight = $(window).height() + "px";
-		}
-		$("#group1").css("height", $contentHeight);
-		$("#group1").css("overflow", "hidden");
-		$("#content").css("position", "relative");
-		$("#content").css("top", "-"+$contentHeight);
-		$("#page-overflow-border").css("height", $contentHeight);
-		//$("#page-container").css("height", $(window).height()+"px");
+		$(window).load(function(){
+			var $contentHeight = $("#content").outerHeight(true) + "px";
+			if($(window).height() > $("#content").outerHeight(true)){
+				$contentHeight = $(window).height() + "px";
+			}
+			$("#group1").css("height", $contentHeight);
+			$("#group1").css("overflow", "hidden");
+			$("#content").css("position", "relative");
+			$("#content").css("top", "-"+$contentHeight);
+			$("#page-overflow-border").css("height", $contentHeight);
+			//$("#page-container").css("height", $(window).height()+"px");
+		});
 	});
 </script>
