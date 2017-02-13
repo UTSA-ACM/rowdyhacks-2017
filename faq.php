@@ -111,7 +111,7 @@
 										<h3>
 											Interested in sponsoring?
 										</h3>
-										Please contact us via e-mail at <a href="mailto:acm.utsa@gmail.com">acm.utsa@gmail.com</a> for more details.
+										Please contact us via e-mail at <a href="mailto:team@rowdyhacks.org">team@rowdyhacks.org</a> for more details.
 									</div>
 								</div>
 							</div>

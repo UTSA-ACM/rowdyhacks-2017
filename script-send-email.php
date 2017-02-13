@@ -2,7 +2,7 @@
 $from = $_POST['email'] . $_POST['m-email'];//'noreply@rowdyhacks.org';
 
 $text = $_POST['text'];
-$to = 'acm.utsa@gmail.com';
+$to = 'team@rowdyhacks.org';//'acm.utsa@gmail.com';
 //$subject = $_POST['subject'] . $_POST['m-subject'];
 $sender = $_POST['name'] . $_POST['m-email'];
 
@@ -33,7 +33,7 @@ else{
 			require('common/head-includes.php');
 		?>
 		<title>
-			Paul Greenlee Retirement
+			RowdyHacks
 		</title>
 	</head>
 	<body>
