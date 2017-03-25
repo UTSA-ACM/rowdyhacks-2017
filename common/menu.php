@@ -15,7 +15,7 @@
 						</a>
 					-->
 					<h1>
-						<a href="." style="color:white;text-decoration:none;">RowdyHacks</a>
+						<a href="." style="color:white;text-decoration:none;font-family:yellowtail;">RowdyHacks</a>
 					</h1>
 				</div> <!-- .navbar-header -->
 				<div class="collapse navbar-collapse" id="nav-collapse">
