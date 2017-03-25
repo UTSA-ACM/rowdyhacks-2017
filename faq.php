@@ -87,19 +87,19 @@
 										<h3>
 											Where will RowdyHacks be located?
 										</h3>
-										RowdyHacks will take place on the first floor of the North Paseo Building at UTSA's main campus.
+										RowdyHacks will take place on the first floor of the NPB (North Paseo Building) at UTSA's main campus.
 									</div>
 									<div class="faq-item">
 										<h3>
 											What can I build?
 										</h3>
-										Be creative! Anything you want from web apps, mobile apps, and more!
+										Anything you can imagine, from websites to hardware hacks to mobile apps. The more creative, the better!
 									</div>
 									<div class="faq-item">
 										<h3>
 											What do I need to bring?
 										</h3>
-										Here are some items we recommend you bring: Laptops, charger, a change of clothes, and toiletries
+										Here are some items we recommend you bring: Laptops, chargers, a change of clothes, and toiletries
 									</div>
 									<div class="faq-item">
 										<h3>
@@ -111,7 +111,7 @@
 										<h3>
 											Interested in sponsoring?
 										</h3>
-										Please contact us via e-mail at acm.utsa@gmail.com for more details.
+										Please contact us via e-mail at <a href="mailto:team@rowdyhacks.org">team@rowdyhacks.org</a> for more details.
 									</div>
 								</div>
 							</div>
